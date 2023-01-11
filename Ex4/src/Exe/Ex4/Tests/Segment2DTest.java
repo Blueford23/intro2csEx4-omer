@@ -13,7 +13,7 @@ class Segment2DTest {
 	@Test
 	void testContains() {
 		Segment2D sg1 = new Segment2D(p2D(7,8),p2D(9, 10));
-		Point2D check1,check2,check3,check4;
+		Point2D check1,check2,check3;
 		check1 = p2D(8.7, 9.7);
 		assertTrue(sg1.contains(check1));
 		

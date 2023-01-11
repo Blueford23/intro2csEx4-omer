@@ -61,11 +61,11 @@ class Rect2DTest {
 		Point2D[] expected1 = {p2D(1, 2),p2D(10, 11)};
 		assertArrayEquals(expected1,rctdefault.getPoints());
 		
-		Point2D[] coords2 = {p2D(0, 0),p2D(0, 0),p2D(0, 0),p2D(0, 0)};
-		Rect2D rct2 = new Rect2D(coords2);
+//		Point2D[] coords2 = {p2D(0, 0),p2D(0, 0),p2D(0, 0),p2D(0, 0)};
+//		Rect2D rct2 = new Rect2D(coords2);
 		
-		Point2D[] coords3 = {p2D(0, 0),p2D(0, 0),p2D(0, 0),p2D(0, 0)};
-		Rect2D rct3 = new Rect2D(coords3);
+//		Point2D[] coords3 = {p2D(0, 0),p2D(0, 0),p2D(0, 0),p2D(0, 0)};
+//		Rect2D rct3 = new Rect2D(coords3);
 	}
 
 	@Test
@@ -81,7 +81,7 @@ class Rect2DTest {
 		Rect2D rct2 = new Rect2D(coords2);
 		rct2.rotate(p2D(10, 10), 45);
 		
-		Point2D[] coords3 = {p2D(0, 0),p2D(0, 0),p2D(0, 0),p2D(0, 0)};
-		Rect2D rct3 = new Rect2D(coords3);
+//		Point2D[] coords3 = {p2D(0, 0),p2D(0, 0),p2D(0, 0),p2D(0, 0)};
+//		Rect2D rct3 = new Rect2D(coords3);
 	}
 }

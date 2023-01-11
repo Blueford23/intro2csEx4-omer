@@ -2,8 +2,6 @@ package Exe.Ex4.geo;
 
 import static Exe.Ex4.geo.Ex4Utils.*;
 
-import java.text.ParseException;
-import java.util.Arrays;
 
 /**
  * This class represents a 2D rectangle (NOT necessarily axis parallel - this

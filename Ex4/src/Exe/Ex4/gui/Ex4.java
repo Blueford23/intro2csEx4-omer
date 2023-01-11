@@ -3,8 +3,6 @@ package Exe.Ex4.gui;
 import java.awt.Color;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 
 import Exe.Ex4.Ex4_Const;
@@ -19,8 +17,8 @@ import Exe.Ex4.geo.Point2D;
 import Exe.Ex4.geo.Polygon2D;
 import Exe.Ex4.geo.Rect2D;
 import Exe.Ex4.geo.Segment2D;
+import Exe.Ex4.geo.ShapeComp;
 import Exe.Ex4.geo.Triangle2D;
-import Exe.Ex4.Compartors.*;
 
 /**
  * 
@@ -540,21 +538,21 @@ public class Ex4 implements Ex4_GUI {
 		Comparator<GUI_Shapeable> comp;
 
 		if (key == "ByPerimeter")
-			comp = new CompareByPerimeter();
+			comp = ShapeComp.CompByPerimeter;
 		else if (key == "ByToString")
-			comp = new CompareByString();
+			comp = ShapeComp.CompByToString;
 		else if (key == "ByTag")
-			comp = new CompareByTag();
+			comp = ShapeComp.CompByTag;
 		else if (key == "ByAntiArea")
-			comp = new CompareByAntiArea();
+			comp = ShapeComp.CompByAntiArea;
 		else if (key == "ByAntiPerimeter")
-			comp = new CompareByAntiPerimeter();
+			comp = ShapeComp.CompByAntiPerimeter;
 		else if (key == "ByAntiToString")
-			comp = new CompareByAntiString();
+			comp = ShapeComp.CompByAntiToString;
 		else if (key == "ByAntiTag")
-			comp = new CompareByAntiTag();
+			comp = ShapeComp.CompByAntiTag;
 		else
-			comp = new CompareByArea();
+			comp = ShapeComp.CompByArea;
 
 		return comp;
 	}

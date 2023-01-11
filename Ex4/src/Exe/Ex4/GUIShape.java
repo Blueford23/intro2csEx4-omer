@@ -9,7 +9,6 @@ import java.awt.Color;
 
 import Exe.Ex4.geo.Circle2D;
 import Exe.Ex4.geo.GeoShapeable;
-import Exe.Ex4.geo.Point2D;
 import Exe.Ex4.geo.Polygon2D;
 import Exe.Ex4.geo.Rect2D;
 import Exe.Ex4.geo.Segment2D;

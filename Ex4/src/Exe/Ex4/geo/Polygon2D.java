@@ -3,7 +3,6 @@ package Exe.Ex4.geo;
 import static Exe.Ex4.geo.Ex4Utils.readPointsString;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * This class represents a 2D polygon, as in

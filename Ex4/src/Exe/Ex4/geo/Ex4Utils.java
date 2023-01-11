@@ -1,9 +1,7 @@
 package Exe.Ex4.geo;
 
-import java.util.Comparator;
 
 import Exe.Ex4.Ex4_Const;
-import Exe.Ex4.GUIShape;
 
 public class Ex4Utils {
 
